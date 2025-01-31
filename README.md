@@ -5,9 +5,9 @@ Group Name: __Fill your team name__.
 Section: __Fill your class section__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. ADLI BIN WAHID (2211623)
+2. AMIRUL HAKIMI BIN ZAIKI (2226287)
+3. AHMAD NUR HISYAM BIN MOHAMAD MANSOR (2225313)
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -76,25 +76,280 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)***
 
+/workspaces/OSProject
+
+
+2. Run the command **cat /etc/passwd** . ***(1 mark)***
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:101:101:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
+codespace:x:1000:1000::/home/codespace:/bin/bash
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+
+
+3. Run the command **df** . ***(1 mark)***
+
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10960472  20193108  36% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 13134120  17147672  44% /vscode
+/dev/loop4      32847680 10960472  20193108  36% /workspaces
+/dev/sdb1       46127956 17126276  26626104  40% /tmp
+
+
+4. Run the command **du** . ***(1 mark)***
+
+8       ./.git/refs/heads
+4       ./.git/refs/tags
+8       ./.git/refs/remotes/origin
+12      ./.git/refs/remotes
+28      ./.git/refs
+68      ./.git/hooks
+8       ./.git/info
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/branches
+8       ./.git/objects/74
+8       ./.git/objects/fa
+12      ./.git/objects/af
+8       ./.git/objects/83
+8       ./.git/objects/96
+8       ./.git/objects/c0
+8       ./.git/objects/93
+12      ./.git/objects/17
+8       ./.git/objects/24
+8       ./.git/objects/1b
+8       ./.git/objects/d8
+12      ./.git/objects/14
+12      ./.git/objects/70
+8       ./.git/objects/0b
+8       ./.git/objects/47
+8       ./.git/objects/cd
+12      ./.git/objects/44
+12      ./.git/objects/72
+8       ./.git/objects/e9
+8       ./.git/objects/71
+12      ./.git/objects/64
+16      ./.git/objects/fb
+8       ./.git/objects/a3
+8       ./.git/objects/0d
+8       ./.git/objects/c3
+12      ./.git/objects/2e
+8       ./.git/objects/7b
+8       ./.git/objects/04
+8       ./.git/objects/91
+12      ./.git/objects/62
+12      ./.git/objects/3d
+12      ./.git/objects/1c
+8       ./.git/objects/f6
+8       ./.git/objects/b6
+8       ./.git/objects/4f
+8       ./.git/objects/fe
+4       ./.git/objects/info
+8       ./.git/objects/eb
+8       ./.git/objects/41
+12      ./.git/objects/29
+8       ./.git/objects/e7
+8       ./.git/objects/fc
+8       ./.git/objects/4b
+8       ./.git/objects/b2
+8       ./.git/objects/20
+8       ./.git/objects/ab
+12      ./.git/objects/73
+8       ./.git/objects/52
+8       ./.git/objects/c6
+1828    ./.git/objects/pack
+8       ./.git/objects/86
+12      ./.git/objects/e5
+8       ./.git/objects/58
+8       ./.git/objects/f2
+8       ./.git/objects/a4
+12      ./.git/objects/6e
+8       ./.git/objects/49
+8       ./.git/objects/fd
+8       ./.git/objects/81
+8       ./.git/objects/3f
+8       ./.git/objects/4a
+8       ./.git/objects/a6
+8       ./.git/objects/b9
+8       ./.git/objects/3a
+12      ./.git/objects/ff
+12      ./.git/objects/b5
+12      ./.git/objects/d2
+8       ./.git/objects/60
+8       ./.git/objects/cb
+2452    ./.git/objects
+8       ./.git/logs/refs/heads
+8       ./.git/logs/refs/remotes/origin
+12      ./.git/logs/refs/remotes
+24      ./.git/logs/refs
+32      ./.git/logs
+2628    ./.git
+1972    ./images
+4624    .
+
+
+5. Run the command **ls** . ***(1 mark)***
+
+README.md  images
+
+
+6. Run the command **ls -asl** . ***(1 mark)***
+
+total 36
+ 4 drwxrwxrwx+ 4 codespace root  4096 Jan 30 03:09 .
+ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 30 03:09 ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 Jan 30 03:10 .git
+20 -rw-rw-rw-  1 codespace root 17463 Jan 30 03:09 README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 30 03:09 images
+
+
+7. Run the command **free -h** . ***(1 mark)*** 
+
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.2Gi       177Mi        61Mi       6.4Gi       6.2Gi
+Swap:            0B          0B          0B
+
+
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3241.986
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.86
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+ 
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3243.426
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+top - 03:14:23 up 6 min,  0 users,  load average: 0.58, 2.62, 1.54
+Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.7 us,  3.0 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7929.6 total,    159.4 free,   1243.4 used,   6526.7 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6310.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                             
+   2118 codespa+  20   0   41.5g 325760  50048 S   1.0   4.0   0:11.16 node                                                                                                                                                
+   2708 codespa+  20   0   11.1g  65716  43904 S   0.7   0.8   0:00.95 node                                                                                                                                                
+   3736 root      20   0 1909528  74188  53248 S   0.3   0.9   0:00.15 dockerd                                                                                                                                             
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.02 docker-init                                                                                                                                         
+      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.02 sleep                                                                                                                                               
+    126 root      20   0   12196   3224   2304 S   0.0   0.0   0:00.00 sshd                                                                                                                                                
+   1371 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.01 sh                                                                                                                                                  
+   1403 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh
+
+
+10. Run the command **uname -a**. ***(1 mark)*** 
+
+Linux codespaces-b06d7e 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+
+11. What is the available free memory in the system. ***(1 mark)*** 
+
+254Mi
+
+
+
+12. What is the available disk space mounted on /workspace. ***(1 mark)***
+
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   11G   20G  35% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M  8.0K   64M   1% /dev/shm
+/dev/root        29G   13G   17G  45% /vscode
+/dev/loop4       32G   11G   20G  35% /workspaces
+/dev/sdb1        44G   18G   24G  43% /tmp
+
+
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+
+Linux codespaces-b06d7e 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
+
+ The ls command is used to list the contents of a directory. However, the output of the ls command can vary depending on the options used with it. The main difference between ls and ls -l is the level of detail provided in the output.
+
+
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+
+12 bits
+
+
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+
+Its speed is essentially determined by the underlying physical CPU core on the host machine, meaning it shares the same clock speed as the host's physical core, but its effective speed can vary depending on how the hypervisor allocates resources across virtual machines. 
+
+
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+
+2118 codespa+
 ## Running your own container instance.
+
 
 1. At the terminal, run a linux instance. By typing the following command. 
 ```
@@ -152,8 +407,15 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+
+No, because containers are ephemeral and get deleted when stopped unless volumes are used.
+
+
+2. Can we run two, or three instances of debian linux? . ***(1 mark)***
+
+Yes, use docker run --name debian1 -d debian and docker run --name debian2 -d debian.
+
 
 ## Running your own container with persistent storage
 
@@ -172,14 +434,19 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
+
+The directory is owned by the user root and the group root.
+The permissions are drwxr-xr-x (which means the owner has full permissions, while others only have read/execute permissions).
+
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+The helloworld.txt file is created with the root user and group. You can change the ownership of the file to the codespace user and group using the chown command, and set the permissions as needed with chmod to allow proper access and modification by the user codespace.
 
 ## You are on your own, create your own static webpage
 
@@ -205,9 +472,23 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+
+Permissions: drwxr-xr-x (the d indicates it's a directory)
+Owner: root
+Group: root
+
+
+2. What port is the apache web server running. ***(1 mark)***
+
+Apache inside the container is running on port 80.
+Host machine is mapped to port 8080.
+
+
+3. What port is open for http protocol on the host machine? ***(1 mark)*** 
+
+The host machine's port open for HTTP is 8080.
+
 
 ## Create SUB Networks
 
@@ -226,11 +507,41 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __Fill answer here__.
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Fill answer here__.
-4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Fill answer here__.
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** 
+
+BusyBox is a lightweight, minimal Linux distribution that provides many Unix utilities in a single executable. It’s commonly used in containers for running simple tasks because it’s small in size, fast, and has many commands like sh, ls, cp, cat, and others, bundled into one binary.
+
+The --name switch in the docker run command allows you to specify a custom name for the container. By default, Docker assigns a random name to a container, but using the --name option allows you to give a meaningful name (like c1 or c2) to easily reference the container.
+
+
+2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** 
+
+$ docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+e21fd1f1e2c2        bridge              bridge              local
+c61fe18c3fe4        host                host                local
+c77906dcd206        none                null                local
+a9fd9d7c3952        bluenet             bridge              local
+48ffac21f9f6        rednet              bridge              local
+
+
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** 
+
+The gateway for bluenet could be 172.18.0.1, and the gateway for rednet could be 172.19.0.1
+
+
+4. What is the network address for the running container c1 and c2? ***(1 mark)*** 
+
+The IP address of c1 on bluenet is 172.18.0.2.
+The IP address of c2 on rednet is 172.19.0.2
+
+
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** 
+
+PING c2 (172.19.0.2): 56 data bytes
+64 bytes from 172.19.0.2: icmp_seq=1 ttl=64 time=0.081 ms
+64 bytes from 172.19.0.2: icmp_seq=2 ttl=64 time=0.062 ms
+
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
@@ -242,8 +553,21 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** 
+
+PING c2 (172.20.0.2): 56 data bytes
+64 bytes from 172.20.0.2: seq=0 ttl=64 time=0.134 ms
+64 bytes from 172.20.0.2: seq=1 ttl=64 time=0.078 ms
+64 bytes from 172.20.0.2: seq=2 ttl=64 time=0.075 ms
+64 bytes from 172.20.0.2: seq=3 ttl=64 time=0.095 ms
+64 bytes from 172.20.0.2: seq=4 ttl=64 time=0.105 ms
+
+
+2. What is different from the previous ping in the section above? ***(1 mark)*** 
+
+In the previous ping (before bridging), the containers were on different networks (bluenet and rednet), and thus couldn't communicate directly with each other. The ping was likely unsuccessful and resulted in a "network unreachable" error.
+After creating and connecting the containers to the bridgenet network, they are now part of the same network, which enables direct communication between them. The ping is now successful because both containers are connected to a common network, allowing them to send and receive packets to each other.
+
 
 ## Intermediate Level (10 marks bonus)
 
@@ -386,8 +710,144 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** 
+
+@mfkinhiraeth ➜ /workspaces/OSProject (main) $ curl http://localhost:3000/random
+Server Error@mfkinhiraeth ➜ /workspaces/OSProject (main) $ 
+
+
+
+2. Show the instruction needed to make this work. ***(1 mark)***
+
+To connect both containers,
+1. We first need to create a bridge network. This can be done using the following command:
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker network create mybridge
+
+
+2. Next, connect both containers to the the newly created network.
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker network connect mybridge mysql-container
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker network connect mybridge nodejs-container
+At this point, the instructions in step 5 should have worked, but in my case, there is an authentication issue between the Node.js MySQL client and the MySQL server. The following steps outline how to resolve the issue:
+
+
+To resolve the authentication issues between the Node.js MySQL client and the MySQL server
+
+1. First, update the authentication method for the MySQL user:
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker exec -it mysql-container mysql -uroot -p
+Enter password: 
+When prompted, enter the root password.
+
+
+2. After connecting to MySQL, execute the following commands:
+
+mysql> alter user 'myuser'@'%' identified with caching_sha2_password by 'mypassword';
+Query OK, 0 rows affected (0.01 sec)
+
+
+mysql> flush privileges;
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+3. Because mysql2 has greater support for caching_sha2_password, we must upgrade the Node.js application to use it instead of mysql. Enter the following commands in the node.js-app directory:
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ npm uninstall mysql
+removed 12 packages, and audited 70 packages in 764ms
+14 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ npm install mysql2
+added 12 packages, and audited 82 packages in 1s
+15 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+
+
+4. In the index.js file, modify the connection setup like this by using the command 'nano index.js':
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ nano index.js file
+Update the index.js file exactly as shown below:
+const express = require('express');
+const mysql = require('mysql2');
+
+const app = express();
+const port = 3000;
+
+// Create a MySQL connection
+const connection = mysql.createConnection({
+    host: 'mysql-container',
+    user: 'myuser',
+    password: 'mypassword',
+    database: 'mydatabase',
+});
+
+// Connect to MySQL
+connection.connect((err) => {
+    if (err) {
+        console.error('Error connecting to MySQL:', err);
+        return;
+    }
+    console.log('Connected to MySQL');
+});
+
+// Define a route to get a random row
+app.get('/random', (req, res) => {
+    const query = 'SELECT * FROM mytable ORDER BY RAND() LIMIT 1';
+    connection.query(query, (err, results) => {
+        if (err) {
+            console.error('Error executing query:', err);
+            return res.status(500).json({ error: 'Database query failed' });
+        }
+        res.json(results[0]);
+    });
+});
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+
+5. Rebuild the Docker image for Node.js:
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker build -t nodejs-app .
+[+] Building 3.7s (11/11) FINISHED          docker:default
+ => [internal] load build definition from Dockerfile  0.0s
+ => => transferring dockerfile: 407B                  0.0s
+ => [internal] load metadata for docker.io/library/n  1.5s
+ => [auth] library/node:pull token for registry-1.do  0.0s
+ => [internal] load .dockerignore                     0.0s
+ => => transferring context: 2B                       0.0s
+ => [1/5] FROM docker.io/library/node:14@sha256:a158  0.0s
+ => [internal] load build context                     0.1s
+ => => transferring context: 70.79kB                  0.1s
+ => CACHED [2/5] WORKDIR /usr/src/app                 0.0s
+ => CACHED [3/5] COPY package*.json ./                0.0s
+ => CACHED [4/5] RUN npm install                      0.0s
+ => [5/5] COPY . .                                    0.3s
+ => exporting to image                                1.8s
+ => => exporting layers                               1.8s
+ => => writing image sha256:f8a8887d01a2e0a3bd0610fe  0.0s
+ => => naming to docker.io/library/nodejs-app         0.0s
+
+
+6. Launch a new Node.js container after stopping and removing the previous one:
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker stop nodejs-container
+nodejs-container
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ docker rm nodejs-container
+nodejs-container
+@mfkinhiraeth➜ /workspaces/OSProject/nodejs-app (main) $ docker run --name nodejs-container --network mybridge -p 3000:3000 -d nodejs-app
+a82e15e98d91cc2116784aa04f52064c2dd88bfbf3d4907c2b5f54b7f27b5f44
+
+
+7. Verify the connection
+
+@mfkinhiraeth ➜ /workspaces/OSProject/nodejs-app (main) $ curl http://localhost:3000/random
+{"id":1,"name":"example1","value":"value1"}
+Finally, the node.js application can be accessed.
 
 
 
